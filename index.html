@@ -1,34 +1,96 @@
-
-<!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Reciclando Conciencia</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reciclando Conciencia</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    body {
+      background: url('https://images.unsplash.com/photo-1542835435-4b44e5a3d8a4') no-repeat center center fixed;
+      background-size: cover;
+      color: #f0f0f0;
+      text-align: center;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      color: #d4af37;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    .btn {
+      margin-top: 20px;
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #45a049;
+    }
+
+    main {
+      padding: 60px 20px;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    main h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    main p {
+      font-size: 1.1rem;
+      max-width: 800px;
+      margin: 0 auto 30px;
+      line-height: 1.6;
+    }
+
+    footer {
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #ccc;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>🌱 Reciclando Conciencia</h1>
-        <p>Educación ambiental y gestión responsable de residuos</p>
-    </header>
+  <header>
+    <h1>Reciclando Conciencia</h1>
+    <p>Reciclar es vivir</p>
+    <button class="btn">Empieza a Reciclar</button>
+  </header>
 
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="usuarios.html">Usuarios</a>
-        <a href="puntos.html">Puntos de Recolección</a>
-        <a href="actividades.html">Actividades</a>
-        <a href="mensajes.html">Mensajes</a>
-    </nav>
+  <main>
+    <h2>¿Por qué es importante reciclar?</h2>
+    <p>El reciclaje no solo reduce la contaminación y conserva recursos naturales, sino que también crea conciencia sobre nuestro impacto en el planeta. Cada pequeña acción cuenta y tú puedes ser parte del cambio.</p>
+    <button class="btn">Saber Más</button>
+  </main>
 
-    <main>
-        <section>
-            <h2>Bienvenido/a</h2>
-            <p>Gestiona la conciencia ambiental de tu comunidad desde esta plataforma educativa.</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Reciclando Conciencia</p>
-    </footer>
+  <footer>
+    &copy; 2025 Reciclando Conciencia. Todos los derechos reservados.
+  </footer>
 </body>
 </html>

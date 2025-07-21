@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -27,7 +28,7 @@
     }
 
     header img {
-      width: 100px;
+      width: 120px;
       margin-bottom: 10px;
     }
 
@@ -96,15 +97,15 @@
 </head>
 <body>
   <header>
-    <img src="/mnt/data/logo.png" alt="Logo Reciclando Conciencia">
+    <img src="/mnt/data/d802d875-4dca-4eb1-9998-235d51647be4.png" alt="Logo Reciclando Conciencia">
     <h1>Reciclando Conciencia</h1>
     <p>Reciclar es vivir</p>
     <nav>
-      <button class="btn">Empieza a Reciclar</button>
-      <button class="btn">Saber Más</button>
-      <button class="btn">Consejos</button>
-      <button class="btn">Galería</button>
-      <button class="btn">Contacto</button>
+      <button class="btn" onclick="document.querySelector('main').scrollIntoView({behavior: 'smooth'})">Empieza a Reciclar</button>
+      <button class="btn" onclick="document.querySelector('main').scrollIntoView({behavior: 'smooth'})">Saber Más</button>
+      <button class="btn" onclick="document.getElementById('consejos').scrollIntoView({behavior: 'smooth'})">Consejos</button>
+      <button class="btn" onclick="document.getElementById('galeria').scrollIntoView({behavior: 'smooth'})">Galería</button>
+      <button class="btn" onclick="document.getElementById('contacto').scrollIntoView({behavior: 'smooth'})">Contacto</button>
     </nav>
   </header>
 
